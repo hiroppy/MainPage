@@ -7,7 +7,7 @@ http://about-hiroppy.com/
 - [x] design
 - [x] grid system
 - [ ] android animation
-- [ ] put panels
+- [ ] put tiles
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
 
@@ -24,9 +24,12 @@ http://about-hiroppy.com/
 - Web Apps
 - RecordMyPlace
     - http://about-hiroppy.org/
+- Environment
 - MyServer
 - Blog
 - Pictures
 - Information of this site
 - Profile
 - trigger of android animation
+- ??
+- ??
