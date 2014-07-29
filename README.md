@@ -10,6 +10,8 @@ http://about-hiroppy.com/
 - [ ] put tiles
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
+- [ ] Breadcrumbs
+- [ ] Navigation Bar
 
 # tiles list
 - Github
