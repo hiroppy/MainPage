@@ -5,7 +5,7 @@ http://about-hiroppy.com/
 
 # tasks list
 - [x] design
-- [ ] grid system
+- [x] grid system
 - [ ] android animation
 - [ ] put panels
 - [ ] notification(article of my blog etc...)
