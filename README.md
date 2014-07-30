@@ -11,7 +11,7 @@ http://about-hiroppy.com/
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
 - [ ] Breadcrumbs
-- [ ] Navigation Bar
+- [x] Navigation Bar
 
 # tiles list
 - 1 Github
@@ -37,7 +37,7 @@ http://about-hiroppy.com/
 # GENRE (for header)
 
 - My info
-    - accounts
+    - Accounts
         - Github
             - direct link
         - Twitter
