@@ -9,7 +9,6 @@
  */
 angular.module('metroHomepageApp')
   .controller('MainCtrl', function ($scope) {
-
     //link
    $('a').click(function(){
       var url = $(this).attr('href');
@@ -30,7 +29,7 @@ angular.module('metroHomepageApp')
     });
 
     var jumpLink = function(url){
-      console.log(url);
+      // console.log(url);
       location.href = url;
       // if(url == "index.html"){
         // $('.body-container').animate({marginRight:'-=' + $(window).width() + 'px',opacity:'0'},500,function(){
