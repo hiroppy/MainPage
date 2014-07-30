@@ -25,7 +25,7 @@ angular
       })
       .when('/accounts', {
         templateUrl: 'views/accounts.html',
-        controller: 'AccountsCtrl'
+        // controller: 'AccountsCtrl'
       })
       .otherwise({
         redirectTo: '/'
