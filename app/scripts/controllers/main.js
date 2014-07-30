@@ -9,7 +9,6 @@
  */
 angular.module('metroHomepageApp')
   .controller('MainCtrl', function ($scope) {
-
     //link
    $('a').click(function(){
       var url = $(this).attr('href');
