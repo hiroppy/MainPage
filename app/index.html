@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="ja">
+  <!-- Library METRO UI CSS http://metroui.org.ua/ thanks! -->
   <!--
      　 　　　　　　　 　 　　　　　　　　　　　　　　　　　　 ,.へ
     　　___ 　　　　　　　 　 　 　 　 　　　　　　　　　　　　ﾑ　　i
@@ -31,6 +32,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="Metro-UI-CSS/css/metro-bootstrap-responsive.css">
     <link rel="stylesheet" href="Metro-UI-CSS/css/metro-bootstrap.css">
     <link rel="stylesheet" href="Metro-UI-CSS/docs/css/iconFont.css">
@@ -50,14 +52,38 @@
           <li><a ng-href="#/about">About</a></li>
           <li><a ng-href="#">Contact</a></li>
         </ul> -->
-        <h3 class="text-muted">metroHomepage</h3>
-        <div class="span2 " id="homepage-github">
-          <div class="text-center padding10 border" data-hint="this site's source code">
-            <button class="image-button danger">
-              GitHub
-              <i class="icon-github bg-red"></i>
-              <a href="http://github.com/abouthiroppy/homePage"></a>
-            </button>
+<!--         <h3 class="text-muted">metroHomepage</h3> -->
+
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <div id="profile-container">
+              <div class="row">
+                <div class="col-md-7 col-sm-7 col-xs-7">
+                  <h2>about_hiroppy</h2>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5">
+                  <img src="images/101010.GIF" alt="profile-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <div class="span2 " id="homepage-github">
+              <div class="text-center" data-hint="this site's source">
+                <button class="image-button bg-cobalt">
+                  <span class="name">Github</span>
+                  <i class="icon-github bg-lightBlue"></i>
+                  <a href="http://github.com/abouthiroppy/homePage"></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <p> ここにblogの最新記事を流す</p>
           </div>
         </div>
       </div>

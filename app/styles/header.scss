@@ -1,0 +1,22 @@
+#profile-container {
+  float: right;
+  img {
+    width: 100px;
+    float: right;
+  }
+  h2 {
+    margin-top: 45px;
+    float: right;
+  }
+}
+
+#homepage-github {
+  float: right;
+  .name, i {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+}
