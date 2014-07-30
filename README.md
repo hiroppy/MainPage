@@ -14,24 +14,23 @@ http://about-hiroppy.com/
 - [ ] Navigation Bar
 
 # tiles list
-- Github
-- Twitter
-- Facebook
-- another Links
-- Time??
-- Flash Site
+- 1 Github
+- 1 Twitter
+- 1 Facebook
+- 1 another Links
+- 2 Time
+- 2 Flash Site
     - http://about-hiroppy.com/flash/
-- Windows Apps
-- iPhone Apps
-- Web Apps
-- RecordMyPlace
+- 1 Windows Apps
+- 1 iPhone Apps
+- 1 Web Apps
+- 2 RecordMyPlace
     - http://about-hiroppy.org/
-- Environment
-- MyServer
-- Blog
-- Pictures
-- Information of this site
-- Profile
-- trigger of android animation
-- ??
+- 1 Environment
+- 1 MyServer
+- 1 Blog
+- 2 Pictures
+- 2 Information of this site
+- 2 Profile
+- 1 trigger of android animation
 - ??
