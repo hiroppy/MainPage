@@ -12,11 +12,23 @@
 
 #homepage-github {
   float: right;
+  #header-github-button {
+    float: left;
+  }
   .name, i {
     color: white;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
+  #homepage-github {
+    padding-bottom: 20px;
+  }
+}
 
+// iPhone
+@media screen and (max-width: 350px) {
+  #profile-container h2{
+    font-size: 22px;
+  }
 }
