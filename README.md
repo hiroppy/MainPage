@@ -33,3 +33,35 @@ http://about-hiroppy.com/
 - 2 Information of this site
 - 2 Profile
 - 1 trigger of android animation
+
+# GENRE (for header)
+- accounts
+    - Github
+        - direct link
+    - Twitter
+        - direct link
+    - Facebook
+        - direct link
+    - the others
+        - html
+- Site
+    - Flash
+        - direct link
+    - RecordMyPlace
+        - direct link
+    - Blog
+        - html
+- Apps
+    - iPhone
+        - html
+    - Windows
+        - html
+    - Web
+        - html
+- Profile
+    - profile
+        - html
+    - Environment
+        - html
+    - MyServer
+        - html
