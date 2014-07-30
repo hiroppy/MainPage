@@ -26,6 +26,7 @@ angular
       .when('/accounts', {
         templateUrl: 'views/accounts.html',
         // controller: 'AccountsCtrl'
+        reloadOnSearch: false
       })
       .otherwise({
         redirectTo: '/'
