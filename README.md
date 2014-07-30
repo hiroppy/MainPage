@@ -33,4 +33,3 @@ http://about-hiroppy.com/
 - 2 Information of this site
 - 2 Profile
 - 1 trigger of android animation
-- ??
