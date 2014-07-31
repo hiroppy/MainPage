@@ -17,15 +17,17 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .config(['$locationProvider', function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/accounts', {
+        templateUrl: 'views/accounts.html',
       })
       .otherwise({
         redirectTo: '/'

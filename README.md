@@ -11,7 +11,7 @@ http://about-hiroppy.com/
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
 - [ ] Breadcrumbs
-- [ ] Navigation Bar
+- [x] Navigation Bar
 
 # tiles list
 - 1 Github
@@ -33,3 +33,40 @@ http://about-hiroppy.com/
 - 2 Information of this site
 - 2 Profile
 - 1 trigger of android animation
+
+# GENRE (for header)
+
+- My info
+    - Accounts
+        - Github
+            - direct link
+        - Twitter
+            - direct link
+        - Facebook
+            - direct link
+        - the others
+            - html
+
+    - Profile
+        - profile
+            - html
+        - Environment
+            - html
+        - MyServer
+            - html
+- Works
+    - Site
+        - Flash
+            - direct link
+        - RecordMyPlace
+            - direct link
+        - Blog
+            - html
+    - Apps
+        - iPhone
+            - html
+        - Windows
+            - html
+        - Web
+            - html
+
