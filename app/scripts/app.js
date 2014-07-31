@@ -17,6 +17,9 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .config(['$locationProvider', function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -25,8 +28,6 @@ angular
       })
       .when('/accounts', {
         templateUrl: 'views/accounts.html',
-        // controller: 'AccountsCtrl'
-        reloadOnSearch: false
       })
       .otherwise({
         redirectTo: '/'
