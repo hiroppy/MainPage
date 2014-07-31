@@ -26,10 +26,6 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/individualTemplete', {
-        templateUrl: 'views/individualTemplete.html',
-        controller: 'IndividualTempleteCtrl'
-      })
       .when('/accounts', {
         templateUrl: 'views/accounts.html',
       })
