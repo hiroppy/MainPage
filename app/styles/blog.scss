@@ -1,0 +1,31 @@
+.row-name {
+  padding: 20px 40px 20px 60px;
+  border: 1px #ccc solid;
+  position: relative;
+  margin: 0 0 10px 0;
+  background-color: #fdfdfd !important;
+  min-height: 100px;
+}
+
+.row-name:before {
+  position: absolute;
+  content: "example";
+  left: -21px;
+  top: 30px;
+  color: #999999 !important;
+  margin: 5px 10px;
+  font-family: 'Segoe UI Semibold_', 'Open Sans Bold', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
