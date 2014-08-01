@@ -27,6 +27,33 @@ angular
       .when('/accounts', {
         templateUrl: 'views/accounts.html',
       })
+      .when('/blog', {
+        templateUrl: 'views/blog.html',
+      })
+      .when('/accounts', {
+        templateUrl: 'views/accounts.html',
+      })
+      .when('/environment', {
+        templateUrl: 'views/environment.html',
+      })
+      .when('/info', {
+        templateUrl: 'views/info.html',
+      })
+      .when('/iphoneApp', {
+        templateUrl: 'views/iphoneApp.html',
+      })
+      .when('/windowsApp', {
+        templateUrl: 'views/windowsApp.html',
+      })
+      .when('/webApp', {
+        templateUrl: 'views/webApp.html',
+      })
+      .when('/link', {
+        templateUrl: 'views/link.html',
+      })
+      .when('/profile', {
+        templateUrl: 'views/profile.html',
+      })
       .otherwise({
         redirectTo: '/'
       });

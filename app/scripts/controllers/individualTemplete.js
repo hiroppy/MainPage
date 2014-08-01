@@ -2,6 +2,5 @@
 
 angular.module('metroHomepageApp')
   .controller('IndividualTempleteCtrl', function ($scope,$location) {
-    console.log('-------------in---');
-    // console.log($location);
+    $scope.location = $location.path().substr(1);
   });
