@@ -1,5 +1,8 @@
 <!-- <script src="Metro-UI-CSS/min/metro.min.js"></script> -->
 
+<!-- header -->
+<ng-include src="'views/header.html'"></ng-include>
+
 <div class="grid">
   <div class="row">
     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -15,196 +18,211 @@
       </div>
 
       <!-- twitter -->
-      <div class="tile bg-cyan" id="twitter-tile">
-        <div class="tile-content icon">
-          <i class="icon-twitter"></i>
+      <a href="http://twitter.com/about_hiroppy">
+        <div class="tile bg-cyan" id="twitter-tile">
+          <div class="tile-content icon">
+            <i class="icon-twitter"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Twitter</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Twitter</span>
-        </div>
-        <a href="http://twitter.com/about_hiroppy"></a>
-      </div>
+      </a>
 
       <!-- facebook -->
-      <div class="tile bg-darkBlue" id="facebook-tile">
-        <div class="tile-content icon">
-          <i class="icon-facebook"></i>
+      <a href="http://www.facebook.com/abouthiroppy">
+        <div class="tile bg-darkBlue" id="facebook-tile">
+          <div class="tile-content icon">
+            <i class="icon-facebook"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Facebook</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Facebook</span>
-        </div>
-        <a href="http://www.facebook.com/abouthiroppy"></a>
-      </div>
+      </a>
 
       <!-- github -->
-      <div class="tile bg-darkCyan" id="github-tile">
-        <div class="tile-content icon">
-          <i class="icon-github"></i>
+      <a href="http://github.com/abouthiroppy">
+        <div class="tile bg-darkCyan" id="github-tile">
+          <div class="tile-content icon">
+            <i class="icon-github"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Github</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Github</span>
-        </div>
-        <a href="http://github.com/abouthiroppy"></a>
-      </div>
+      </a>
 
       <!-- All accounts -->
-      <div class="tile bg-dark" id="another-account-tile">
-        <div class="tile-content icon">
-          <i class="icon-user-2"></i>
+      <a href="#/accounts">
+        <div class="tile bg-dark" id="another-account-tile">
+          <div class="tile-content icon">
+            <i class="icon-user-2"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Accounts</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Accounts</span>
-        </div>
-        <a href="allAccounts.html"></a>
-      </div>
+      </a>
 
       <!-- Environment -->
-      <div class="tile bg-lightOlive" id="my-Environment-tile">
-        <div class="tile-content icon">
-          <i class=" icon-accessibility"></i>
+      <a href="http://about-hiroppy.org">
+        <div class="tile bg-lightOlive" id="my-Environment-tile">
+          <div class="tile-content icon">
+            <i class=" icon-accessibility"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Environment</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Environment</span>
-        </div>
-        <a href="http://about-hiroppy.org"></a>
-      </div>
+      </a>
 
       <!-- my-server -->
-      <div class="tile bg-steel" id="my-server-tile">
-        <div class="tile-content icon">
-          <i class="icon-database"></i>
+      <a href="http://about-hiroppy.org">
+        <div class="tile bg-steel" id="my-server-tile">
+          <div class="tile-content icon">
+            <i class="icon-database"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">MyServer</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">MyServer</span>
-        </div>
-        <a href="http://about-hiroppy.org"></a>
-      </div>
+      </a>
 
       <!-- Flash -->
-      <div class="tile double" id="flash-tile">
-        <div class="tile-content image-set">
-          <img src="images/flash-bg1.jpg">
-          <img src="images/flash-bg2.jpg">
-          <img src="images/flash-bg3.jpg">
-          <img src="images/flash-bg4.jpg">
-          <img src="images/flash-bg5.jpg">
+      <a href="http://about-hiroppy.com/flash/">
+        <div class="tile double" id="flash-tile">
+          <div class="tile-content image-set">
+            <img src="images/flash-bg1.jpg">
+            <img src="images/flash-bg2.jpg">
+            <img src="images/flash-bg3.jpg">
+            <img src="images/flash-bg4.jpg">
+            <img src="images/flash-bg5.jpg">
+          </div>
+          <div class="tile-status">
+            <span class="name">Flash</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Flash</span>
-        </div>
-        <a href="http://about-hiroppy.com/flash/"></a>
-      </div>
+      </a>
 
       <!-- record-my-place -->
-      <div class="tile bg-darker double" id="record-my-place-tile">
-        <div class="tile-content icon">
-          <i class="icon-rocket"></i>
+      <a href="http://about-hiroppy.org">
+        <div class="tile bg-darker double" id="record-my-place-tile">
+          <div class="tile-content icon">
+            <i class="icon-rocket"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">RecordMyPlace</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">RecordMyPlace</span>
-        </div>
-        <a href="http://about-hiroppy.org"></a>
-      </div>
+      </a>
 
       <!-- windows App -->
-      <div class="tile bg-lightBlue" id="windows-app-tile">
-        <div class="tile-content icon">
-          <i class="icon-windows"></i>
+      <a href="windowsApp.html">
+        <div class="tile bg-lightBlue" id="windows-app-tile">
+          <div class="tile-content icon">
+            <i class="icon-windows"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Windows App</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Windows App</span>
-        </div>
-        <a href="windowsApp.html"></a>
-      </div>
+      </a>
 
       <!-- iPhone App -->
-      <div class="tile bg-gray" id="iphone-app-tile">
-        <div class="tile-content icon">
-          <i class="icon-apple"></i>
+      <a href="iphoneApp.html">
+        <div class="tile bg-gray" id="iphone-app-tile">
+          <div class="tile-content icon">
+            <i class="icon-apple"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">iPhone App</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">iPhone App</span>
-        </div>
-        <a href="iphoneApp.html"></a>
-      </div>
+      </a>
 
       <!-- web app -->
-      <div class="tile bg-steel" id="web-app-tile">
-        <div class="tile-content icon">
-          <i class="icon-laptop"></i>
+      <a href="webApp.html">
+        <div class="tile bg-steel" id="web-app-tile">
+          <div class="tile-content icon">
+            <i class="icon-laptop"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Web App</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Web App</span>
-        </div>
-        <a href="webApp.html"></a>
-      </div>
+      </a>
 
       <!-- blog -->
-      <div class="tile bg-dark" id="blog-tile">
-        <div class="tile-content icon">
-          <i class="icon-pencil"></i>
+      <a href="blog.html">
+        <div class="tile bg-dark" id="blog-tile">
+          <div class="tile-content icon">
+            <i class="icon-pencil"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Blog</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Blog</span>
-        </div>
-        <a href="blog.html"></a>
-      </div>
+      </a>
 
       <!-- slideshow -->
-      <div class="tile double live" data-role="live-tile" data-effect="slideRight" id="picture-tile">
-        <div class="tile-content image">
-          <img src="images/pic_profile.jpg">
+      <a href="picture.html">
+        <div class="tile double live" data-role="live-tile" data-effect="slideRight" id="picture-tile">
+          <div class="tile-content image">
+            <img src="images/pic_profile.jpg">
+          </div>
+          <div class="tile-content image">
+            <img src="images/pic_1.jpg">
+          </div>
+          <div class="tile-content image">
+            <img src="images/pic_2.jpg">
+          </div>
+          <div class="tile-content image">
+            <img src="images/pic_3.jpg">
+          </div>
+          <div class="tile-content image">
+            <img src="images/pic_4.jpg">
+          </div>
+          <div class="tile-content image">
+            <img src="images/pic_5.jpg">
+          </div>
         </div>
-        <div class="tile-content image">
-          <img src="images/pic_1.jpg">
-        </div>
-        <div class="tile-content image">
-          <img src="images/pic_2.jpg">
-        </div>
-        <div class="tile-content image">
-          <img src="images/pic_3.jpg">
-        </div>
-        <div class="tile-content image">
-          <img src="images/pic_4.jpg">
-        </div>
-        <div class="tile-content image">
-          <img src="images/pic_5.jpg">
-        </div>
-        <a href="picture.html"></a>
-      </div>
+      </a>
 
       <!-- information -->
-      <div class="tile double" id="information-tile">
-        <div class="tile-content image">
-          <img src="images/info.jpg">
+      <a href="profile.html">
+        <div class="tile double" id="information-tile">
+          <div class="tile-content image">
+            <img src="images/info.jpg">
+          </div>
+          <div class="tile-status">
+            <span class="name">Information</span>
+          </div>
+          <a href="information.html"></a>
         </div>
-        <div class="tile-status">
-          <span class="name">Information</span>
-        </div>
-        <a href="information.html"></a>
-      </div>
 
-      <!-- profile -->
-      <div class="tile double" id="profile-tile">
-        <div class="tile-content image">
-          <img src="images/profile.jpg">
+        <!-- profile -->
+        <div class="tile double" id="profile-tile">
+          <div class="tile-content image">
+            <img src="images/profile.jpg">
+          </div>
+          <div class="tile-status">
+            <span class="name">Profile</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Profile</span>
-        </div>
-        <a href="profile.html"></a>
-      </div>
+      </a>
 
       <!-- Link -->
-      <div class="tile bg-dark" id="link-tile">
-        <div class="tile-content icon">
-          <i class="icon-link-2"></i>
+      <a href="link.html">
+        <div class="tile bg-dark" id="link-tile">
+          <div class="tile-content icon">
+            <i class="icon-link-2"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Link</span>
+          </div>
         </div>
-        <div class="tile-status">
-          <span class="name">Link</span>
-        </div>
-        <a href="link.html"></a>
-      </div>
+      </a>
 
       <!-- 爆発させたい -->
       <div class="tile bg-orange" id="explode-tile">
@@ -212,6 +230,7 @@
           <i class="icon-smiley"></i>
         </div>
       </div>
+
     </div>
   </div>
 </div>
