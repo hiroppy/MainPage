@@ -36,6 +36,9 @@ angular
       .when('/environment', {
         templateUrl: 'views/environment.html',
       })
+      .when('/gmae', {
+        templateUrl: 'views/game.html',
+      })
       .when('/info', {
         templateUrl: 'views/info.html',
       })
