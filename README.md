@@ -17,7 +17,7 @@ http://about-hiroppy.com/
 - [x] 1 Github
 - [x] 1 Twitter
 - [x] 1 Facebook
-- [ ] 1 another Links
+- [x] 1 accounts
 - [x] 2 Time
 - [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
