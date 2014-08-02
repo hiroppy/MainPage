@@ -1,0 +1,30 @@
+.row-name {
+  padding: 20px 40px 20px 60px;
+  border: 1px #aaa solid;
+  position: relative;
+  margin: 0 0 10px 0;
+  background-color: #fdfdfd !important;
+  min-height: 100px;
+}
+
+img {
+  max-width: 150px !important;
+}
+
+blockquote {
+  border-left: 5px solid #bbb;
+}
+
+h5 {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+@media screen and (max-width:800px){
+  .row-name {
+    padding: 20px 30px 20px 30px;
+  }
+  .metro blockquote {
+    border-left: none;
+    content: none;
+  }
+}
