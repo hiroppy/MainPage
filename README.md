@@ -27,7 +27,7 @@ http://about-hiroppy.com/
 - [x] 2 RecordMyPlace
     - http://about-hiroppy.org/
 - [x] 1 Environment
-- [ ] 1 Game
+- [x] 1 Game
 - [x] 1 Blog
 - [ ] 2 Pictures
 - [ ] 2 Information of this site
