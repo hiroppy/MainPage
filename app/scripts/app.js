@@ -36,6 +36,9 @@ angular
       .when('/environment', {
         templateUrl: 'views/environment.html',
       })
+      .when('/game', {
+        templateUrl: 'views/game.html',
+      })
       .when('/info', {
         templateUrl: 'views/info.html',
       })
@@ -48,8 +51,8 @@ angular
       .when('/webApp', {
         templateUrl: 'views/webApp.html',
       })
-      .when('/link', {
-        templateUrl: 'views/link.html',
+      .when('/programming', {
+        templateUrl: 'views/programming.html',
       })
       .when('/profile', {
         templateUrl: 'views/profile.html',

@@ -26,8 +26,9 @@ http://about-hiroppy.com/
 - [ ] 1 Web Apps
 - [x] 2 RecordMyPlace
     - http://about-hiroppy.org/
-- [ ] 1 Environment
-- [ ] 1 MyServer
+- [x] 1 Programming
+- [x] 1 Environment
+- [x] 1 Game
 - [x] 1 Blog
 - [ ] 2 Pictures
 - [ ] 2 Information of this site
@@ -52,7 +53,9 @@ http://about-hiroppy.com/
             - html
         - Environment
             - html
-        - MyServer
+        - Game
+            - html
+        - Programming
             - html
 - Works
     - Site
