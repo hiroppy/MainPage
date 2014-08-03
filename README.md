@@ -14,25 +14,26 @@ http://about-hiroppy.com/
 - [x] Navigation Bar
 
 # tiles list
-- 1 Github
-- 1 Twitter
-- 1 Facebook
-- 1 another Links
-- 2 Time
-- 2 Flash Site
+- [x] 1 Github
+- [x] 1 Twitter
+- [x] 1 Facebook
+- [x] 1 accounts
+- [x] 2 Time
+- [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
-- 1 Windows Apps
-- 1 iPhone Apps
-- 1 Web Apps
-- 2 RecordMyPlace
+- [ ] 1 Windows Apps
+- [ ] 1 iPhone Apps
+- [ ] 1 Web Apps
+- [x] 2 RecordMyPlace
     - http://about-hiroppy.org/
-- 1 Environment
-- 1 MyServer
-- 1 Blog
-- 2 Pictures
-- 2 Information of this site
-- 2 Profile
-- 1 trigger of android animation
+- [ ] 1 Programming
+- [x] 1 Environment
+- [x] 1 Game
+- [x] 1 Blog
+- [ ] 2 Pictures
+- [ ] 2 Information of this site
+- [ ] 2 Profile
+- [ ] 1 trigger of android animation
 
 # GENRE (for header)
 
@@ -52,7 +53,9 @@ http://about-hiroppy.com/
             - html
         - Environment
             - html
-        - MyServer
+        - Game
+            - html
+        - Programming
             - html
 - Works
     - Site

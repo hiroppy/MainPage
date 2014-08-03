@@ -75,9 +75,40 @@ body {
   .header {
     margin-bottom: 10px;
   }
+
+  .row-name {
+    padding: 20px 40px 20px 60px !important;
+  }
+}
+
+@media screen and (min-width:700px){
+  .row-name {
+    padding: 20px 30px;
+  }
+  .metro blockquote {
+    border-left: none;
+    content: none;
+  }
 }
 
 #time-tile{
   padding-top: 20px;
   pointer-events : none;
+}
+
+.row-name {
+  padding: 20px 40px;
+  border: 1px #aaa solid;
+  position: relative;
+  margin: 0 0 10px 0;
+  background-color: #fdfdfd !important;
+  min-height: 100px;
+}
+
+.cycle-img{
+  max-width: 150px !important;
+}
+
+.h2-title{
+  border-bottom: solid 2px #bbb;
 }
