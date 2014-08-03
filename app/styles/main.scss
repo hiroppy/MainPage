@@ -105,10 +105,19 @@ body {
   min-height: 100px;
 }
 
-.cycle-img{
+.cycle-img {
   max-width: 150px !important;
 }
 
-.h2-title{
+.h2-title {
   border-bottom: solid 2px #bbb;
+}
+
+.cycle-img-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
