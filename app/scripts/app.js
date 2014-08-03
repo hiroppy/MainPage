@@ -51,8 +51,8 @@ angular
       .when('/webApp', {
         templateUrl: 'views/webApp.html',
       })
-      .when('/link', {
-        templateUrl: 'views/link.html',
+      .when('/programming', {
+        templateUrl: 'views/programming.html',
       })
       .when('/profile', {
         templateUrl: 'views/profile.html',
