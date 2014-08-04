@@ -57,7 +57,7 @@ angular
       .when('/profile', {
         templateUrl: 'views/profile.html',
       })
-      .when('/picture', {
+      .when('/photographs', {
         templateUrl: 'views/picture.html',
       })
       .otherwise({
