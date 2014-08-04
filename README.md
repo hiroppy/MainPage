@@ -21,9 +21,9 @@ http://about-hiroppy.com/
 - [x] 2 Time
 - [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
-- [ ] 1 Windows Apps
-- [ ] 1 iPhone Apps
-- [ ] 1 Web Apps
+- [x] 1 Windows Apps
+- [x] 1 iPhone Apps
+- [x] 1 Web Apps
 - [x] 2 RecordMyPlace
     - http://about-hiroppy.org/
 - [x] 1 Programming
@@ -32,7 +32,7 @@ http://about-hiroppy.com/
 - [x] 1 Blog
 - [ ] 2 Pictures
 - [ ] 2 Information of this site
-- [ ] 2 Profile
+- [x] 2 Profile
 - [ ] 1 trigger of android animation
 
 # GENRE (for header)
