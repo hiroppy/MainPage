@@ -10,7 +10,7 @@ http://about-hiroppy.com/
 - [x] put tiles
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
-- [ ] Breadcrumbs
+- [x] Breadcrumbs
 - [x] Navigation Bar
 
 # tiles list
@@ -31,7 +31,7 @@ http://about-hiroppy.com/
 - [x] 1 Game
 - [x] 1 Blog
 - [ ] 2 Pictures
-- [ ] 2 Information of this site
+- [x] 2 Information of this site
 - [x] 2 Profile
 - [ ] 1 trigger of android animation
 
