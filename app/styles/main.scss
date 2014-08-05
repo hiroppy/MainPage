@@ -58,7 +58,6 @@ body {
   }
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1180px;
@@ -79,6 +78,15 @@ body {
   .row-name {
     // padding: 10px 40px 20px 50px !important;
     padding: 15px 0 ;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cycle-img.cycle-img-small {
+    max-width: 100px !important;
+  }
+  .lang-h2 {
+    font-size: 2.2rem !important;
   }
 }
 
@@ -116,11 +124,6 @@ p {
 .text-center {
   text-align: center;
 }
-
-// blockquote {
-//   border-left: none;
-//   content: none;
-// }
 
 .gray-color{
   color: rgba(0, 0, 0, 0.6) !important;
