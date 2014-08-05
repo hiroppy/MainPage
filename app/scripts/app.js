@@ -59,6 +59,7 @@ angular
       })
       .when('/photographs', {
         templateUrl: 'views/picture.html',
+        controller: 'PhotographsCtrl'
       })
       .otherwise({
         redirectTo: '/'
