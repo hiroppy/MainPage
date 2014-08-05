@@ -80,9 +80,13 @@ body {
     // padding: 10px 40px 20px 50px !important;
     padding: 15px 0 ;
   }
+
+  .android-icon img {
+    width: 500px !important;
+  }
 }
 
-#time-tile{
+#time-tile {
   padding-top: 20px;
   pointer-events : none;
 }
@@ -122,10 +126,27 @@ p {
 //   content: none;
 // }
 
-.gray-color{
+.gray-color {
   color: rgba(0, 0, 0, 0.6) !important;
 }
 
 em {
   word-wrap: break-word;
+}
+
+.android-row {
+  margin: 0;
+}
+
+.android-icon {
+  // opacity: 1;
+  img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -300px;
+  }
+  h1 {
+    text-align: center;
+  }
 }
