@@ -6,33 +6,34 @@ http://about-hiroppy.com/
 # tasks list
 - [x] design
 - [x] grid system
-- [ ] android animation
+- [x] android animation
 - [x] put tiles
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
-- [ ] Breadcrumbs
+- [x] Breadcrumbs
 - [x] Navigation Bar
 
 # tiles list
-- 1 Github
-- 1 Twitter
-- 1 Facebook
-- 1 another Links
-- 2 Time
-- 2 Flash Site
+- [x] 1 Github
+- [x] 1 Twitter
+- [x] 1 Facebook
+- [x] 1 accounts
+- [x] 2 Time
+- [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
-- 1 Windows Apps
-- 1 iPhone Apps
-- 1 Web Apps
-- 2 RecordMyPlace
+- [x] 1 Windows Apps
+- [x] 1 iPhone Apps
+- [x] 1 Web Apps
+- [x] 2 RecordMyPlace
     - http://about-hiroppy.org/
-- 1 Environment
-- 1 MyServer
-- 1 Blog
-- 2 Pictures
-- 2 Information of this site
-- 2 Profile
-- 1 trigger of android animation
+- [x] 1 Programming
+- [x] 1 Environment
+- [x] 1 Game
+- [x] 1 Blog
+- [ ] 2 Pictures
+- [x] 2 Information of this site
+- [x] 2 Profile
+- [x] 1 trigger of android animation
 
 # GENRE (for header)
 
@@ -52,7 +53,9 @@ http://about-hiroppy.com/
             - html
         - Environment
             - html
-        - MyServer
+        - Game
+            - html
+        - Programming
             - html
 - Works
     - Site

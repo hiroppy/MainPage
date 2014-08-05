@@ -58,7 +58,6 @@ body {
   }
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1180px;
@@ -75,9 +74,82 @@ body {
   .header {
     margin-bottom: 10px;
   }
+
+  .row-name {
+    // padding: 10px 40px 20px 50px !important;
+    padding: 15px 0 ;
+  }
+
+  .android-icon img {
+    width: 500px !important;
+  }
 }
 
-#time-tile{
+@media screen and (max-width: 800px) {
+  .cycle-img.cycle-img-small {
+    max-width: 100px !important;
+  }
+  .lang-h2 {
+    font-size: 2.2rem !important;
+  }
+}
+
+#time-tile {
   padding-top: 20px;
   pointer-events : none;
+}
+
+.row-name {
+  padding: 20px 5px;
+  border: 1px #aaa solid;
+  position: relative;
+  margin: 0 0 10px 0;
+  background-color: #fdfdfd !important;
+  min-height: 100px;
+}
+
+.cycle-img {
+  max-width: 150px !important;
+}
+
+.h2-title {
+  border-bottom: solid 2px #bbb;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+.cycle-img-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gray-color {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+em {
+  word-wrap: break-word;
+}
+
+.android-row {
+  margin: 0;
+}
+
+.android-icon {
+  // opacity: 1;
+  img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -300px;
+  }
+  h1 {
+    text-align: center;
+  }
 }
