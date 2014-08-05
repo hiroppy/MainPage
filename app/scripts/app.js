@@ -57,8 +57,12 @@ angular
       .when('/profile', {
         templateUrl: 'views/profile.html',
       })
-      // .otherwise({
-      //   redirectTo: '/'
-      // });
+      .when('/photographs', {
+        templateUrl: 'views/picture.html',
+        controller: 'PhotographsCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
     $locationProvider.html5Mode(false);
   }]);

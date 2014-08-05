@@ -77,17 +77,8 @@ body {
   }
 
   .row-name {
-    padding: 20px 40px 20px 60px !important;
-  }
-}
-
-@media screen and (min-width:700px){
-  .row-name {
-    padding: 20px 30px;
-  }
-  .metro blockquote {
-    border-left: none;
-    content: none;
+    // padding: 10px 40px 20px 50px !important;
+    padding: 15px 0 ;
   }
 }
 
@@ -97,7 +88,7 @@ body {
 }
 
 .row-name {
-  padding: 20px 40px;
+  padding: 20px 5px;
   border: 1px #aaa solid;
   position: relative;
   margin: 0 0 10px 0;
@@ -113,6 +104,10 @@ body {
   border-bottom: solid 2px #bbb;
 }
 
+p {
+  word-wrap: break-word;
+}
+
 .cycle-img-center {
   margin: 0 auto;
   display: block;
@@ -120,4 +115,17 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+// blockquote {
+//   border-left: none;
+//   content: none;
+// }
+
+.gray-color{
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+em {
+  word-wrap: break-word;
 }
