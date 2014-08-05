@@ -77,7 +77,8 @@ body {
   }
 
   .row-name {
-    padding: 10px 40px 20px 50px !important;
+    // padding: 10px 40px 20px 50px !important;
+    padding: 15px 0 ;
   }
 }
 
@@ -101,6 +102,10 @@ body {
 
 .h2-title {
   border-bottom: solid 2px #bbb;
+}
+
+p {
+  word-wrap: break-word;
 }
 
 .cycle-img-center {
