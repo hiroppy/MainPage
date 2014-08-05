@@ -6,7 +6,7 @@ http://about-hiroppy.com/
 # tasks list
 - [x] design
 - [x] grid system
-- [ ] android animation
+- [x] android animation
 - [x] put tiles
 - [ ] notification(article of my blog etc...)
 - [ ] make pictures api(get)
@@ -33,7 +33,7 @@ http://about-hiroppy.com/
 - [ ] 2 Pictures
 - [x] 2 Information of this site
 - [x] 2 Profile
-- [ ] 1 trigger of android animation
+- [x] 1 trigger of android animation
 
 # GENRE (for header)
 
