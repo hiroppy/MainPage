@@ -31,15 +31,19 @@ angular.module('metroHomepageApp')
             complete: function(){
               $('.container').append($(row).append($(grid).append($(icon).append(androidImg).append(androidComment))));
               $('.android-icon img').animate({'margin-top':'30px'},1500,"easeOutBounce");
+              setTimeout(function(){
+                $('.android-icon img').hover(function(){
+                  $('body').css('background','black');
+                },function(){
+                  $('body').css('background','#9fdfcc');
+                });
+                $('.android-icon img').click(function(){
+                  location.reload();
+                });
+              },2000);
             }
           });
         }
       });
     });
   });
-
-          // $('.android-icon').animate({top:'150px'},1500,"easeOutBounce",function(){
-          //   $('#android-comment').animate({opacity:1,duration:1500,delay:700});
-          //   // $('.android-icon').mouseover(function(){
-          //   // });
-      //     });
