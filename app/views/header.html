@@ -1,13 +1,6 @@
-<script src="Metro-UI-CSS/min/metro.min.js"></script>
+<!-- <script src="Metro-UI-CSS/min/metro.min.js"></script> -->
 
-<div class="header">
-<!--         <ul class="nav nav-pills pull-right">
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#/about">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
-  </ul> -->
-<!--         <h3 class="text-muted">metroHomepage</h3> -->
-
+<div class="header" ng-controller="HeaderCtrl">
   <div class="row">
     <div class="col-md-12 col-xs-12">
       <div id="profile-container">
@@ -23,7 +16,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 col-xs-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
       <a href="https://github.com/abouthiroppy/metroHomePage">
         <div class="span2 " id="homepage-github">
           <div class="text-center" data-hint="this site's source" id="header-github-button">
@@ -37,10 +30,16 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      <div class="ticker-row">
-        <div id="ticker">
-        </div>
+    <div class="col-md-3 col-sm-4 col-xs-12">
+      <h2 class="h2-title sub-title">latest article</h2>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-12">
+      <div class="ticker">
+        <ul>
+          <li><p>Ticker item #1</p></li>
+          <li>Ticker item #2</li>
+          <li>てすとおおおおおおお</li>
+        </ul>
       </div>
     </div>
   </div>

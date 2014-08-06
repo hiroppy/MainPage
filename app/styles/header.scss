@@ -20,15 +20,30 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   #homepage-github {
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
+    display: none;
   }
 }
 
 // iPhone
 @media screen and (max-width: 350px) {
-  #profile-container h2{
+  #profile-container {
+    padding-bottom: 20px;
+    h2 {
     font-size: 22px;
+    }
   }
+  .sub-title{
+    text-align: center;
+  }
+}
+
+//ticker
+.ticker div {
+  display: inline-block;
+  word-wrap: break-word;
+  // float: right;
+  font-size: 2.0rem;
 }
