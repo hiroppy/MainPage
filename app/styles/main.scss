@@ -105,6 +105,10 @@ body {
   text-align: center;
 }
 
+.iphone-header button{
+  cursor: default !important;
+}
+
 #time-tile {
   padding-top: 20px;
   pointer-events : none;
