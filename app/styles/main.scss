@@ -94,6 +94,16 @@ body {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .iphone-header {
+    display: block !important;
+  }
+}
+
+.iphone-header {
+  display: none;
+}
+
 #time-tile {
   padding-top: 20px;
   pointer-events : none;
