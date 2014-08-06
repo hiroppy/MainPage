@@ -8,7 +8,7 @@ http://about-hiroppy.com/
 - [x] grid system
 - [x] android animation
 - [x] put tiles
-- [ ] notification(article of my blog etc...)
+- [x] notification(article of my blog etc...)
 - [ ] make pictures api(get)
 - [x] Breadcrumbs
 - [x] Navigation Bar
