@@ -16,22 +16,22 @@
 		// Default options
 		var defaults = {
 			sizeRangeSuffixes : {
-				'lt100': '_t', 
-				'lt240': '_m', 
-				'lt320': '_n', 
-				'lt500': '', 
-				'lt640': '_z', 
+				'lt100': '_t',
+				'lt240': '_m',
+				'lt320': '_n',
+				'lt500': '',
+				'lt640': '_z',
 				'lt1024': '_b'
 			},
 			rowHeight : 120,
 			maxRowHeight : 0, //negative value = no limits, 0 = 1.5 * rowHeight
 			margins : 1,
 			lastRow : 'nojustify', // or can be 'justify' or 'hide'
-			justifyThreshold: 0.35, // if available space / row width <= 0.35 it will be always justified 
+			justifyThreshold: 0.35, // if available space / row width <= 0.35 it will be always justified
 															// (lastRow setting is not considered)
 			cssAnimation: false,
 			captionsAnimationDuration : 500,
-			captionsVisibleOpacity : 0.7, 
+			captionsVisibleOpacity : 0.7,
 			imagesAnimationDuration : 300,
 			fixedHeight : false,
 			captions : true,
@@ -45,19 +45,20 @@
 		function getSuffix(width, height, context) {
 			var longestSide;
 			longestSide = (width > height) ? width : height;
-			if (longestSide <= 100) {
-				return context.settings.sizeRangeSuffixes.lt100;
-			} else if (longestSide <= 240) {
-				return context.settings.sizeRangeSuffixes.lt240;
-			} else if (longestSide <= 320) {
-				return context.settings.sizeRangeSuffixes.lt320;
-			} else if (longestSide <= 500) {
-				return context.settings.sizeRangeSuffixes.lt500;
-			} else if (longestSide <= 640) {
-				return context.settings.sizeRangeSuffixes.lt640;
-			} else {
-				return context.settings.sizeRangeSuffixes.lt1024;
-			}
+			return context.settings.sizeRangeSuffixes.lt500;
+			// if (longestSide <= 100) {
+			// 	return context.settings.sizeRangeSuffixes.lt100;
+			// } else if (longestSide <= 240) {
+			// 	return context.settings.sizeRangeSuffixes.lt240;
+			// } else if (longestSide <= 320) {
+			// 	return context.settings.sizeRangeSuffixes.lt320;
+			// } else if (longestSide <= 500) {
+			// 	return context.settings.sizeRangeSuffixes.lt500;
+			// } else if (longestSide <= 640) {
+			// 	return context.settings.sizeRangeSuffixes.lt640;
+			// } else {
+			// 	return context.settings.sizeRangeSuffixes.lt1024;
+			// }
 		}
 
 		function onEntryMouseEnterForCaption (ev) {
@@ -93,8 +94,8 @@
 
 			// Image reloading for an high quality of thumbnails
 			var imageSrc = $image.attr('src');
-			var newImageSrc = imageSrc.replace(context.settings.extension, '').replace(context.usedSizeRangeRegExp, '') + 
-								getSuffix(imgWidth, imgHeight, context) + 
+			var newImageSrc = imageSrc.replace(context.settings.extension, '').replace(context.usedSizeRangeRegExp, '') +
+								getSuffix(imgWidth, imgHeight, context) +
 								imageSrc.match(context.settings.extension)[0];
 
 			$image.one('error', function () {
@@ -128,9 +129,9 @@
 						$entry.append($imgCaption);
 					}
 				}
-			
+
 				// Create events (we check again the $imgCaption because it can be still inexistent)
-				if ($imgCaption.length !== 0 && typeof captionMouseEvents === 'undefined') { 
+				if ($imgCaption.length !== 0 && typeof captionMouseEvents === 'undefined') {
 					captionMouseEvents = {
 						mouseenter: onEntryMouseEnterForCaption,
 						mouseleave: onEntryMouseLeaveForCaption
@@ -153,15 +154,15 @@
 			var i, $entry, $image, stdImgW, newImgW, newImgH, justify = true;
 			var minHeight = 0;
 			var availableWidth = context.galleryWidth;
-			var extraW = availableWidth - context.buildingRow.width - 
+			var extraW = availableWidth - context.buildingRow.width -
 							((context.buildingRow.entriesBuff.length - 1) * context.settings.margins);
 
 			//Skip the last row if we can't justify it and the lastRow == 'hide'
 			if (isLastRow && context.settings.lastRow === 'hide' && (extraW / availableWidth > context.settings.justifyThreshold)) {
 				for (i = 0; i < context.buildingRow.entriesBuff.length; i++) {
 					$entry = context.buildingRow.entriesBuff[i];
-					if (context.settings.cssAnimation) 
-						$entry.removeClass('entry-visible');						
+					if (context.settings.cssAnimation)
+						$entry.removeClass('entry-visible');
 					else
 						$entry.stop().fadeTo(0, 0);
 				}
@@ -169,7 +170,7 @@
 			}
 
 			// With lastRow = nojustify, justify if (extraW / availableWidth <= context.settings.justifyThreshold)
-			if (isLastRow && context.settings.lastRow === 'nojustify' && (extraW / availableWidth > context.settings.justifyThreshold)) 
+			if (isLastRow && context.settings.lastRow === 'nojustify' && (extraW / availableWidth > context.settings.justifyThreshold))
 				justify = false;
 
 			//DEBUG// console.log('prepareBuildingRow: availableWidth: ' + availableWidth + ' extraW: ' + extraW);
@@ -203,7 +204,7 @@
 				$image.data('jg.imgh', newImgH);
 
 				//DEBUG// console.log($image.attr('alt') + ' new jq.imgw = ' + $image.data('jg.imgw') + ' new jg.imgh = ' + $image.data('jg.imgh'));
-				
+
 				availableWidth -= newImgW + ((i < context.buildingRow.entriesBuff.length - 1) ? context.settings.margins : 0);
 				if (i === 0 || minHeight > newImgH) minHeight = newImgH;
 			}
@@ -269,7 +270,7 @@
 				var galleryWidth = parseInt(context.$gallery.width(), 10);
 				if (context.galleryWidth !== galleryWidth) {
 					//DEBUG// console.log("resize. old: " + context.galleryWidth + " new: " + galleryWidth);
-					
+
 					context.galleryWidth = galleryWidth;
 					rewind(context);
 
@@ -277,12 +278,12 @@
 					startImgAnalyzer(context, true);
 				}
 			}, context.settings.refreshTime);
-		}	
+		}
 
 		function startLoadingSpinnerAnimation(spinnerContext) {
 			clearInterval(spinnerContext.intervalId);
 			spinnerContext.intervalId = setInterval(function () {
-				if (spinnerContext.phase < spinnerContext.$points.length) 
+				if (spinnerContext.phase < spinnerContext.$points.length)
 					spinnerContext.$points.eq(spinnerContext.phase).fadeTo(spinnerContext.timeslot, 1);
 				else
 					spinnerContext.$points.eq(spinnerContext.phase - spinnerContext.$points.length).fadeTo(spinnerContext.timeslot, 0);
@@ -307,8 +308,8 @@
 		}
 
 		function analyzeImages(context, isForResize) {
-			
-			//DEBUG// 
+
+			//DEBUG//
 			/*var rnd = parseInt(Math.random() * 10000, 10);
 			//DEBUG// console.log('analyzeImages ' + rnd + ' start');
 			//DEBUG// console.log('images status: ');
@@ -320,7 +321,7 @@
 
 			/* The first row */
 			var isLastRow;
-			
+
 			for (var i = context.lastAnalyzedIndex + 1; i < context.entries.length; i++) {
 				var $entry = $(context.entries[i]);
 				var $image = $entry.find('img');
@@ -336,8 +337,8 @@
 
 					// NOTE: If we have fixed height we need to never have a negative extraW, else some images can be hided.
 					//				This is because the images need to have a smaller height, but fixed height doesn't allow it
-					if (context.buildingRow.width + (context.settings.fixedHeight ? newImgW : newImgW / 2) + 
-								(context.buildingRow.entriesBuff.length - 1) * 
+					if (context.buildingRow.width + (context.settings.fixedHeight ? newImgW : newImgW / 2) +
+								(context.buildingRow.entriesBuff.length - 1) *
 								context.settings.margins > context.galleryWidth) {
 
 						flushRow(context, isLastRow);
@@ -371,7 +372,7 @@
 
 			/* Stop, if there is, the timeout to start the analyzeImages.
 					This is because an image can be set loaded, and the timeout can be set,
-					but this image can be analyzed yet. 
+					but this image can be analyzed yet.
 			*/
 			stopImgAnalyzerStarter(context);
 
@@ -423,9 +424,9 @@
 			if (context.settings.justifyThreshold < 0 || context.settings.justifyThreshold > 1)
 				throw 'justifyThreshold must be in the interval [0,1]';
 			if (typeof context.settings.cssAnimation !== 'boolean') {
-				throw 'cssAnimation must be a boolean';	
+				throw 'cssAnimation must be a boolean';
 			}
-			
+
 			checkOrConvertNumber('captionsAnimationDuration');
 			checkOrConvertNumber('imagesAnimationDuration');
 
@@ -434,17 +435,17 @@
 				throw 'captionsVisibleOpacity must be in the interval [0,1]';
 
 			if (typeof context.settings.fixedHeight !== 'boolean') {
-				throw 'fixedHeight must be a boolean';	
+				throw 'fixedHeight must be a boolean';
 			}
 
 			if (typeof context.settings.captions !== 'boolean') {
-				throw 'captions must be a boolean';	
+				throw 'captions must be a boolean';
 			}
 
 			checkOrConvertNumber('refreshTime');
 
 			if (typeof context.settings.randomize !== 'boolean') {
-				throw 'randomize must be a boolean';	
+				throw 'randomize must be a boolean';
 			}
 
 		}
@@ -457,7 +458,7 @@
 			var context = $gallery.data('jg.context');
 			if (typeof context === 'undefined') {
 
-				if (typeof arg !== 'undefined' && arg !== null && typeof arg !== 'object') 
+				if (typeof arg !== 'undefined' && arg !== null && typeof arg !== 'object')
 					throw 'The argument must be an object';
 
 				// Spinner init
@@ -501,7 +502,7 @@
 				context.settings = $.extend({}, context.settings, arg);
 				rewind(context);
 			}
-			
+
 			checkSettings(context);
 
 			context.entries = $gallery.find('> a, > div').toArray();
@@ -515,12 +516,12 @@
 				});
 			}
 
-			context.usedSizeRangeRegExp = new RegExp("(" + 
-				context.settings.sizeRangeSuffixes.lt100 + "|" + 
-				context.settings.sizeRangeSuffixes.lt240 + "|" + 
-				context.settings.sizeRangeSuffixes.lt320 + "|" + 
-				context.settings.sizeRangeSuffixes.lt500 + "|" + 
-				context.settings.sizeRangeSuffixes.lt640 + "|" + 
+			context.usedSizeRangeRegExp = new RegExp("(" +
+				context.settings.sizeRangeSuffixes.lt100 + "|" +
+				context.settings.sizeRangeSuffixes.lt240 + "|" +
+				context.settings.sizeRangeSuffixes.lt320 + "|" +
+				context.settings.sizeRangeSuffixes.lt500 + "|" +
+				context.settings.sizeRangeSuffixes.lt640 + "|" +
 				context.settings.sizeRangeSuffixes.lt1024 + ")$"
 			);
 
@@ -559,7 +560,7 @@
 					$image.attr('src', imageSrc);
 
 					/* Check if the image is loaded or not using another image object.
-							We cannot use the 'complete' image property, because some browsers, 
+							We cannot use the 'complete' image property, because some browsers,
 							with a 404 set complete = true
 					*/
 					var loadImg = new Image();
@@ -589,5 +590,5 @@
 		});
 
 	};
-	
+
 }(jQuery));
