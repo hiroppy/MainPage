@@ -20,6 +20,17 @@ angular.module('metroHomepageApp')
       }
     });
     setTimeout(function(){
-      $('.ticker').ticker();
+      $('.ticker').ticker(
+        {
+          itemSpeed:     3500,
+          cursorSpeed:   70,
+          pauseOnHover:  false,
+          finishOnHover: false,
+          cursorOne:     '_',
+          cursorTwo:     '-',
+          fade:          true,
+          fadeInSpeed:   600,
+          fadeOutSpeed:  300
+        });
     },1200);
   });
