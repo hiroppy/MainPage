@@ -1,86 +1,80 @@
 <script src="Metro-UI-CSS/min/metro.min.js"></script>
 
-<div class="navbar">
-  <div class="navbar-content">
-    <a href="/" class="element"> about_hiroppy <sup>1.1.0</sup></a>
-    <span class="element-divider"></span>
-
-    <a class="pull-menu" href=""></a>
-    <ul class="element-menu">
-      <li>
-        <a class="dropdown-toggle" href="#">My info</a>
-        <ul class="dropdown-menu" data-role="dropdown">
-          <li>
-            <a href="#" class="dropdown-toggle">Accounts</a>
-            <ul class="dropdown-menu" data-role="dropdown">
-              <li><a href="http://github.com/abouthiroppy">Github</a></li>
-              <div class="divider"></div>
-              <li><a href="http://twitter.com/about_hiroppy">Twitter</a></li>
-              <li><a href="http://www.facebook.com/abouthiroppy">Facebook</a></li>
-              <li><a href="/#/accounts">the others</a></li>
-            </ul>
-          </li>
-          <li class="divider"></li>
-          <li>
-            <a href="#" class="dropdown-toggle">Profile</a>
-            <ul class="dropdown-menu" data-role="dropdown">
-              <li><a href="">Profile</a></li>
-              <div class="divider"></div>
-              <li><a href="">Environment</a></li>
-              <li><a href="">Programming</a></li>
-              <li><a href="">Game</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a class="dropdown-toggle" href="#">Works</a>
-        <ul class="dropdown-menu" data-role="dropdown">
-          <li>
-            <a href="#" class="dropdown-toggle">Site</a>
-            <ul class="dropdown-menu" data-role="dropdown">
-              <li><a href="http://about-hiroppy.org">RecordMyPlace</a></li>
-              <li><a href="http://about-hiroppy.com/flash">Flash</a></li>
-              <div class="divider"></div>
-              <li><a href="http://www.facebook.com/abouthiroppy">Blog</a></li>
-            </ul>
-          </li>
-          <li class="divider"></li>
-          <li>
-            <a href="#" class="dropdown-toggle">Apps</a>
-            <ul class="dropdown-menu" data-role="dropdown">
-              <li><a href="">iPhone</a></li>
-              <li><a href="">Windows</a></li>
-              <li><a href="">Web</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul> <!-- pull-menu -->
-    <div class="no-tablet-portrait">
-      <span class="element-divider"></span>
-      <a class="element brand" href="#"><span class="icon-spin"></span></a>
-      <a class="element brand" href="#"><span class="icon-printer"></span></a>
+<div ng-controller="IndividualTempleteCtrl">
+  <div class="navbar">
+    <div class="navbar-content">
+      <a href="/" class="element"> about_hiroppy <sup>1.1.0</sup></a>
       <span class="element-divider"></span>
 
-      <div class="element place-right">
-        <a class="dropdown-toggle" href="#"><span class="icon-cog"></span></a>
-        <ul class="dropdown-menu place-right" data-role="dropdown">
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Download</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Buy Now</a></li>
-        </ul>
+      <a class="pull-menu" href=""></a>
+      <ul class="element-menu">
+        <li>
+          <a class="dropdown-toggle" href="#">My info</a>
+          <ul class="dropdown-menu" data-role="dropdown">
+            <li>
+              <a href="#" class="dropdown-toggle">Accounts</a>
+              <ul class="dropdown-menu" data-role="dropdown">
+                <li><a href="http://github.com/abouthiroppy">Github</a></li>
+                <div class="divider"></div>
+                <li><a href="http://twitter.com/about_hiroppy">Twitter</a></li>
+                <li><a href="http://www.facebook.com/abouthiroppy">Facebook</a></li>
+                <li><a href="/#/accounts">the others</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="#" class="dropdown-toggle">Profile</a>
+              <ul class="dropdown-menu" data-role="dropdown">
+                <li><a href="/#/profile">Profile</a></li>
+                <div class="divider"></div>
+                <li><a href="/#/environment">Environment</a></li>
+                <li><a href="/#/programming">Programming</a></li>
+                <li><a href="/#/game">Game</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="dropdown-toggle" href="#">Works</a>
+          <ul class="dropdown-menu" data-role="dropdown">
+            <li>
+              <a href="#" class="dropdown-toggle">Site</a>
+              <ul class="dropdown-menu" data-role="dropdown">
+                <li><a href="http://about-hiroppy.org">RecordMyPlace</a></li>
+                <li><a href="http://about-hiroppy.com/flash">Flash</a></li>
+                <div class="divider"></div>
+                <li><a href="/#/blog">Blog</a></li>
+              </ul>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="#" class="dropdown-toggle">Apps</a>
+              <ul class="dropdown-menu" data-role="dropdown">
+                <li><a href="/#/iphoneApp">iPhone</a></li>
+                <li><a href="/#/windowsApp">Windows</a></li>
+                <li><a href="/#/webApp">Web</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul> <!-- pull-menu -->
+      <div class="no-tablet-portrait">
+        <span class="element-divider"></span>
+        <a class="element brand page-reload"><span class="icon-spin"></span></a>
+  <!--       <a class="element brand" href="#"><span class="icon-printer"></span></a>
+        <span class="element-divider"></span> -->
+
+<!--         <div class="element place-right">
+          <p class="performance-timing" >aaa {{response}}</p>
+        </div> -->
       </div>
-      <span class="element-divider place-right"></span>
-      <!-- <img class="image-left place-right" src="images/101010.gif"/> -->
     </div>
   </div>
-</div>
 
-<nav class="breadcrumbs" ng-controller="IndividualTempleteCtrl">
-  <ul>
-    <li><a href="/"><span class="icon-home"></span> Home</a></li>
-    <li class="active"><a>{{location}}</a></li>
-  </ul>
-</nav>
+  <nav class="breadcrumbs" ng-controller="IndividualTempleteCtrl">
+    <ul>
+      <li><a href="/"><span class="icon-home"></span> Home</a></li>
+      <li class="active"><a>{{location}}</a></li>
+    </ul>
+  </nav>
+</div>
