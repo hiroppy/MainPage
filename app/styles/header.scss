@@ -20,30 +20,50 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 950px) {
+  // #homepage-github {
+  //   // padding-bottom: 20px;
+  //   display: none;
+  // }
+  .ticker-article {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
   #homepage-github {
     // padding-bottom: 20px;
     display: none;
   }
-}
-
-// iPhone
-@media screen and (max-width: 350px) {
   #profile-container {
     padding-bottom: 20px;
     h2 {
     font-size: 22px;
     }
   }
-  .sub-title{
+  .sub-title {
     text-align: center;
+  }
+  .ticker-article {
+    height: 100px;
   }
 }
 
 //ticker
+.ticker {
+  ul {
+    // opacity: 0;
+    display: none;
+  }
+}
+
 .ticker div {
   display: inline-block;
   word-wrap: break-word;
   // float: right;
   font-size: 2.0rem;
+}
+
+.sub-title {
+  line-height: 50px !important;
 }
