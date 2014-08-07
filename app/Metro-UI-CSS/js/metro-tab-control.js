@@ -40,8 +40,8 @@
 
                 var current_frame = $($(this).attr("href"));
                 switch (that.options.effect) {
-                    case 'slide': current_frame.slideDown(); break;
-                    case 'fade': current_frame.fadeIn(); break;
+                    case 'slide': current_frame.slideDown("20000"); break;
+                    case 'fade': current_frame.fadeIn("20000"); break;
                     default: current_frame.show();
                 }
 
