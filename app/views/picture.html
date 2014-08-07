@@ -1,27 +1,38 @@
-<!-- <script src="metro-UI-CSS/js/metro-tab-control.js"></script> -->
+<link rel="stylesheet" href="justified-Gallery/src/style/justifiedGallery.min.css">
+<link rel="stylesheet" href="/shadowbox/shadowbox.css">
 
 <ng-include src="'views/individualTemplete.html'"></ng-include>
-
 
 <div class="grid">
   <div class="row">
     <div class="row-name">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="tab-control" data-role="tab-control" data-effect="fade[slide]">
+          <div class="tab-control" data-role="tab-control" data-effect="fade">
             <ul class="tabs">
               <li class="active"><a href="#all">ALL</a></li>
-              <li><a href="#_page_2">Other Tab</a></li>
-              <li><a href="#_page_3"><i class="icon-rocket"></i></a></li>
+              <li><a href="#object">Object</a></li>
+              <li><a href="#cute">Cute</a></li>
               <li class="place-right"><a href="#_page_4"><i class="icon-cog"></i></a></li>
             </ul>
             <div class="frames">
               <div class="frame" id="all">
-                <div class="photo">
-                </div>
+                <!-- reservation -->
+       <!--            <a shadowbox name="{{item.title}}" url="photographs-images/{{item.name}}" ng-repeat="item in imagesArray" href="shadowbox">
+                    <img alt="{{item.title}}" src="photographs-images/{{item.name}}"/>
+                  </a> -->
+<!--                   <a rel="shadowbox" ng-repeat="item in imagesArray" href="photographs-images/{{item.name}}" title="{{item.title}}">
+                    <img alt="{{item.title}}" src="photographs-images/{{item.name}}"/>
+                  </a> -->
+         <!--          <a rel="shadowbox" href="photographs-images/test.jpg" title="">
+                    <img alt="test" src="photographs-images/test.jpg"/>
+                  </a>
+                  <a rel="shadowbox" href="photographs-images/test.jpg" title="">
+                    <img alt="test" src="photographs-images/test.jpg"/>
+                  </a> -->
               </div>
-              <div class="frame" id="_page_2">aaaaaaaaaaaaaaaaaaaaaaa</div>
-              <div class="frame" id="_page_3">aaaaaaaaaaaaaaaaaaaaaaaaa</div>
+              <div class="frame" id="object"></div>
+              <div class="frame" id="cute"></div>
             </div>
           </div>
         </div>
@@ -30,8 +41,6 @@
   </div>
 </div>
 
-<!-- <script src="bower_components/Justified-Gallery/src/js/justifiedGallery.js"></script>
-<script src="bower_components/fancyapps-fancyBox-18d1712/source/jquery.fancybox.js"></script>
-<script src="bower_components/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.js"></script> -->
-<!-- a.fancybox-thumb(ng-repeat="item in items" href= "{{item.src}}" title= "{{item.title}}" rel="fancybox-thumb")
-                    img(src="{{item.src}}" alt="{{item.title}}") -->
+<script src="shadowbox/shadowbox.js"></script>
+<script src="metro-UI-CSS/js/metro-tab-control.js"></script>
+<script src="justified-Gallery/src/js/justifiedGallery.js"></script>
