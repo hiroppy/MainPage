@@ -9,7 +9,7 @@ http://about-hiroppy.com/
 - [x] android animation
 - [x] put tiles
 - [x] notification(article of my blog etc...)
-- [ ] make pictures api(get)
+- [x] make pictures api(get)
 - [x] Breadcrumbs
 - [x] Navigation Bar
 
@@ -30,7 +30,7 @@ http://about-hiroppy.com/
 - [x] 1 Environment
 - [x] 1 Game
 - [x] 1 Blog
-- [ ] 2 Pictures
+- [x] 2 Pictures
 - [x] 2 Information of this site
 - [x] 2 Profile
 - [x] 1 trigger of android animation
