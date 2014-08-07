@@ -128,9 +128,12 @@ module.exports = function (grunt) {
             },
             test: {
                 options: {
-                    jshintrc: 'test/.jshintrc'
+                    jshintrc: 'test/.jshintrc',
+                    helpers: [
+                        'bower_components/jquery/dist/jquery.js'
+                    ]
                 },
-                src: ['test/spec/{,*/}*.js']
+                src: ['test/spec/{,*/}*.js'],
             }
         },
 
