@@ -1,8 +1,5 @@
 'use strict';
 
-      // console.log(window.innerHeight);
-      // resizeTo(320,window.innerHeight);
-
 angular.module('metroHomepageApp')
   .controller('MainCtrl', function ($scope) {
 
