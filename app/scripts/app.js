@@ -52,6 +52,7 @@ angular
       .when('/photographs', {
         templateUrl: 'views/picture.html',
         controller: 'PhotographsCtrl'
+      })
       .when('/activity', {
         templateUrl: 'views/activity.html',
       })
