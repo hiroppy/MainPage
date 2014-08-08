@@ -54,6 +54,12 @@ angular
       .when('/profile', {
         templateUrl: 'views/profile.html',
       })
+      .when('/activity', {
+        templateUrl: 'views/activity.html',
+      })
+      .when('/slide', {
+        templateUrl: 'views/slide.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
