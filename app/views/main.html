@@ -1,4 +1,4 @@
-<script src="Metro-UI-CSS/min/metro.min.js"></script>
+<!-- <script src="Metro-UI-CSS/min/metro.min.js"></script> -->
 
 <!-- header -->
 <ng-include src="'views/header.html'"></ng-include>
@@ -7,12 +7,17 @@
   <div class="row">
     <div class="col-md-12 col-sm-12 col-xs-12">
 
-      <!-- time -->
-      <div class="tile double bg-lime" id="time-tile" >
-        <!-- <div id="tile-padding"></div> -->
-        <div class="times" data-role="times" data-style-background="bg-lightBlue" data-style-divider="fg-lightBlue"></div>
-        <div class="countdown" data-role="countdown" data-style-background="bg-teal" data-style-foreground="fg-yellow"></div>
-      </div>
+      <!-- profile -->
+      <a href="#/profile">
+        <div class="tile double" id="profile-tile">
+          <div class="tile-content image">
+            <img src="images/profile.jpg">
+          </div>
+          <div class="tile-status">
+            <span class="name">Profile</span>
+          </div>
+        </div>
+      </a>
 
       <!-- twitter -->
       <a href="http://twitter.com/about_hiroppy">
@@ -200,14 +205,26 @@
         </div>
       </a>
 
-      <!-- profile -->
-      <a href="#/profile">
-        <div class="tile double" id="profile-tile">
-          <div class="tile-content image">
-            <img src="images/profile.jpg">
+      <!-- Activity -->
+      <a href="#/activity">
+        <div class="tile bg-darkRed" id="activity-tile">
+          <div class="tile-content icon">
+            <i class="icon-power"></i>
           </div>
           <div class="tile-status">
-            <span class="name">Profile</span>
+            <span class="name">Activity</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Activity -->
+      <a href="#/slide">
+        <div class="tile bg-darkEmerald" id="slide-tile">
+          <div class="tile-content icon">
+            <i class="icon-newspaper"></i>
+          </div>
+          <div class="tile-status">
+            <span class="name">Slide</span>
           </div>
         </div>
       </a>
