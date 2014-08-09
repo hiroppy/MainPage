@@ -6,9 +6,10 @@
 
 angular.module('metroHomepageApp')
   .controller('PhotographsCtrl', function ($scope) {
-    $('.tab-control').tabcontrol({
-      effect: 'fade' // or 'slide'
-    });
+    $('.picture-flame').css('opacity',0);
+    // $('.tab-control').tabcontrol({
+    //   effect: 'fade' // or 'slide'
+    // });
     $.ajax({
       async: true,
       url: 'photographs-images/photo.json',
@@ -36,6 +37,9 @@ angular.module('metroHomepageApp')
           // columnWidth: 250,
           itemSelector: '.photo-item'
         });
+        $('.picture-flame').animate({
+          opacity: 1
+        })
         // $("#all").justifiedGallery({cssAnimation:true});
         // $("#object").justifiedGallery({cssAnimation:true});
         // $("#cute").justifiedGallery({cssAnimation:true});
