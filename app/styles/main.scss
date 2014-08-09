@@ -174,10 +174,14 @@ em {
   cursor: pointer;
 }
 
-.active{
+.active {
   cursor: default;
 }
 
-.performance-timing{
+.performance-timing {
   color: white;
+}
+
+.photo-item {
+  width: 25%;
 }

@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
-    "angular-scenario": "1.2.16"
+    "angular-scenario": "1.2.16",
+    "masonry": "~3.1.5",
+    "Metro-UI-CSS": "~2.0.23"
   },
   "appPath": "app"
 }
