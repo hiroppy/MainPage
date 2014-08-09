@@ -35,7 +35,7 @@ angular.module('metroHomepageApp')
         var container = document.querySelector('#all');
         var msnry = new Masonry( container, {
           // columnWidth: 250,
-          itemSelector: '.photo-item'
+          itemSelector: '.photo-item',
         });
         $('.picture-flame').animate({
           opacity: 1
