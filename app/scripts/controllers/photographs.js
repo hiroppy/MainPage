@@ -16,22 +16,20 @@ angular.module('metroHomepageApp')
       type: 'GET',
       dataType: 'json'
     }).done(function(data){
-      var imagesPathArray = [];
+      // var imagesPathArray = [];
       for(var i=0;i<data.length;i++){
         data[i].name = data[i].name;
         data[i].thumb = data[i].name.split('.')[0]+"_thumb.jpg"
-        imagesPathArray.push(data[i]);
-        $('#all').append('<a rel=\"shadowbox\" href=\"photographs-images/'+data[i].name+'\" title=\"'+data[i].title+'\"><img alt=\"'+data[i].title+'\" src=\"photographs-images/'+data[i].thumb+'\" class=\"photo-item\" </a>');
+        // imagesPathArray.push(data[i]);
+        $('#all').append('<a rel=\"shadowbox\" href=\"photographs-images/'+data[i].name+'\" title=\"'+data[i].title+'\"><img src=\"photographs-images/'+data[i].thumb+'\" class=\"photo-item\" </a>');
         // if(data[i].type === '0')
         //   $('#object').append('<a rel=\"shadowbox\" href=\"photographs-images/'+data[i].name+'\" title=\"'+data[i].title+'\"><img alt=\"'+data[i].title+'\" src=\"photographs-images/'+data[i].name+'\"></a>');
         // if(data[i].type === '1')
         //   $('#cute').append('<a rel=\"shadowbox\" href=\"photographs-images/'+data[i].name+'\" title=\"'+data[i].title+'\"><img alt=\"'+data[i].title+'\" src=\"photographs-images/'+data[i].name+'\"></a>');
       }
-      // console.log(imagesPathArray);
-      Shadowbox.init();
-    });
-    $scope.$on('$viewContentLoaded',function(){
+
       setTimeout(function(){
+        Shadowbox.init();
         var container = document.querySelector('#all');
         var msnry = new Masonry( container, {
           // columnWidth: 250,
@@ -39,12 +37,27 @@ angular.module('metroHomepageApp')
         });
         $('.picture-flame').animate({
           opacity: 1
-        })
+        });
         // $("#all").justifiedGallery({cssAnimation:true});
         // $("#object").justifiedGallery({cssAnimation:true});
         // $("#cute").justifiedGallery({cssAnimation:true});
-      },300);
+      },2000);
     });
+    // $scope.$on('$viewContentLoaded',function(){
+    //   setTimeout(function(){
+    //     var container = document.querySelector('#all');
+    //     var msnry = new Masonry( container, {
+    //       // columnWidth: 250,
+    //       itemSelector: '.photo-item',
+    //     });
+    //     $('.picture-flame').animate({
+    //       opacity: 1
+    //     })
+    //     // $("#all").justifiedGallery({cssAnimation:true});
+    //     // $("#object").justifiedGallery({cssAnimation:true});
+    //     // $("#cute").justifiedGallery({cssAnimation:true});
+    //   },300);
+    // });
   });
   // .directive('shadowbox', function() {
   //   console.log('in');
