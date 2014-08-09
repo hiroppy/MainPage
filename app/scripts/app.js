@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name metroHomepageApp
- * @description
- * # metroHomepageApp
- *
- * Main module of the application.
- */
 angular
   .module('metroHomepageApp', [
     'ngAnimate',
@@ -60,6 +52,12 @@ angular
       .when('/photographs', {
         templateUrl: 'views/picture.html',
         controller: 'PhotographsCtrl'
+      })
+      .when('/activity', {
+        templateUrl: 'views/activity.html',
+      })
+      .when('/slide', {
+        templateUrl: 'views/slide.html',
       })
       .otherwise({
         redirectTo: '/'

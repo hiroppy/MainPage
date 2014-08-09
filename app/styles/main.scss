@@ -85,6 +85,10 @@ body {
   }
 }
 
+@media screen and (min-width: 800px) {
+
+}
+
 @media screen and (max-width: 800px) {
   .cycle-img.cycle-img-small {
     max-width: 100px !important;
@@ -124,7 +128,7 @@ body {
 }
 
 .cycle-img {
-  max-width: 150px !important;
+  max-width: 130px !important;
 }
 
 .h2-title {
@@ -174,10 +178,14 @@ em {
   cursor: pointer;
 }
 
-.active{
+.active {
   cursor: default;
 }
 
-.performance-timing{
+.performance-timing {
   color: white;
+}
+
+.photo-item {
+  width: 25%;
 }

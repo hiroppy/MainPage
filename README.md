@@ -17,8 +17,9 @@ http://about-hiroppy.com/
 - [x] 1 Github
 - [x] 1 Twitter
 - [x] 1 Facebook
-- [x] 1 accounts
-- [x] 2 Time
+- [x] 1 Accounts
+- [ ] 1 Activity
+- [ ] 1 Slide
 - [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
 - [x] 1 Windows Apps
@@ -57,6 +58,8 @@ http://about-hiroppy.com/
             - html
         - Programming
             - html
+        - Activity
+            - html
 - Works
     - Site
         - Flash
@@ -72,4 +75,6 @@ http://about-hiroppy.com/
             - html
         - Web
             - html
+    - Slide
+        - html
 
