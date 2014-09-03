@@ -1,17 +1,16 @@
 'use strict';
 
 $('.container').css('opacity',0);
+$(function(){
+  setTimeout(function(){
+    $('.container').animate({
+      opacity: 1
+    },500);
+  },200);
+});
 
 angular.module('metroHomepageApp')
   .controller('MainCtrl', function ($scope) {
-
-    $(function(){
-      setTimeout(function(){
-        $('.container').animate({
-          opacity: 1
-        },500);
-      },200);
-    });
 
     //android-explode
     $('div#explode-tile').click(function(e){
