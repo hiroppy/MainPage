@@ -99,7 +99,7 @@
     visibility: visible !important;
   }
   .container {
-    width: 940px !important;
+    /*width: 940px !important;*/
   }
 }
 /* tablet portrait */
@@ -117,7 +117,7 @@
     visibility: visible !important;
   }
   .container {
-    width: 720px !important;
+    /*width: 720px !important;*/
   }
   .grid:not(.fluid) > .row {
     margin: 0;
