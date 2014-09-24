@@ -18,8 +18,8 @@ http://about-hiroppy.com/
 - [x] 1 Twitter
 - [x] 1 Facebook
 - [x] 1 Accounts
-- [ ] 1 Activity
-- [ ] 1 Slide
+- [x] 1 Activity
+- [x] 1 Slide
 - [x] 2 Flash Site
     - http://about-hiroppy.com/flash/
 - [x] 1 Windows Apps
