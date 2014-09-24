@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/abouthiroppy/metroHomePage.png?branch=develop)](https://travis-ci.org/abouthiroppy/metroHomePage)
 
-# HOMEPAGE
+# MY SITE
 http://about-hiroppy.com/
 
 # tasks list
