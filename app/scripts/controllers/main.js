@@ -1,5 +1,14 @@
 'use strict';
 
+$('.container').css('opacity',0);
+$(function(){
+  setTimeout(function(){
+    $('.container').animate({
+      opacity: 1
+    },500);
+  },200);
+});
+
 angular.module('metroHomepageApp')
   .controller('MainCtrl', function ($scope) {
 
