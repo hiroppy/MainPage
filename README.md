@@ -1,17 +1,10 @@
-[![Build Status](https://travis-ci.org/abouthiroppy/metroHomePage.png?branch=develop)](https://travis-ci.org/abouthiroppy/metroHomePage)
+[![Build Status](https://travis-ci.org/abouthiroppy/metroHomePage.png?branch=master)](https://travis-ci.org/abouthiroppy/metroHomePage)
 
 # MY SITE
 http://about-hiroppy.com/
 
 # tasks list
-- [x] design
-- [x] grid system
-- [x] android animation
-- [x] put tiles
-- [x] notification(article of my blog etc...)
-- [x] make pictures api(get)
-- [x] Breadcrumbs
-- [x] Navigation Bar
+- [] write test
 
 # tiles list
 - [x] 1 Github
@@ -76,5 +69,5 @@ http://about-hiroppy.com/
         - Web
             - html
     - Slide
-        - html
-
+        - html  
+        
