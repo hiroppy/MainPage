@@ -47,7 +47,7 @@ angular
         templateUrl: 'views/profile.html',
       })
       .when('/photographs', {
-        templateUrl: 'views/picture.html',
+        templateUrl: 'views/photographs.html',
         controller: 'PhotographsCtrl'
       })
       .when('/activity', {
