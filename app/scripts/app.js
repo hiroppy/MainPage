@@ -22,9 +22,6 @@ angular
       .when('/blog', {
         templateUrl: 'views/blog.html',
       })
-      .when('/accounts', {
-        templateUrl: 'views/accounts.html',
-      })
       .when('/environment', {
         templateUrl: 'views/environment.html',
       })
