@@ -12,12 +12,12 @@ http://about-hiroppy.com/
 - [x] 1 Activity
 - [x] 1 Slide
 - [x] 2 Flash Site
-    - http://about-hiroppy.com/flash/
+    - http://about-hiroppy.com/flash
 - [x] 1 Windows Apps
 - [x] 1 iPhone Apps
 - [x] 1 Web Apps
 - [x] 2 RecordMyPlace
-    - http://about-hiroppy.org/
+    - http://place.about-hiroppy.org
 - [x] 1 Programming
 - [x] 1 Environment
 - [x] 1 Game
