@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/abouthiroppy/metroHomePage.png?branch=master)](https://travis-ci.org/abouthiroppy/metroHomePage)
-
-# MY SITE
+# MY SITE [![Build Status](https://travis-ci.org/abouthiroppy/metroHomePage.png?branch=master)](https://travis-ci.org/abouthiroppy/metroHomePage)
 http://about-hiroppy.com/
 
 # tasks list
