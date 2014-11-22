@@ -2,7 +2,7 @@
 http://about-hiroppy.com/
 
 # tasks list
-- [ ] write test  
+- [x] write test  
 
 # tiles list
 - [x] 1 Github
