@@ -1,10 +1,7 @@
 # MY SITE [![Build Status](https://travis-ci.org/abouthiroppy/MainPage.png?branch=develop)](https://travis-ci.org/abouthiroppy/MainPage)
 http://about-hiroppy.com/
 
-# tasks list
-- [x] write test  
-
-# tiles list
+# TILES
 - [x] 1 Github
 - [x] 1 Twitter
 - [x] 1 Facebook
