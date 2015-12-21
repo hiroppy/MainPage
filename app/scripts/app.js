@@ -22,9 +22,6 @@ angular
       .when('/blog', {
         templateUrl: 'views/blog.html',
       })
-      .when('/accounts', {
-        templateUrl: 'views/accounts.html',
-      })
       .when('/environment', {
         templateUrl: 'views/environment.html',
       })
@@ -50,7 +47,7 @@ angular
         templateUrl: 'views/profile.html',
       })
       .when('/photographs', {
-        templateUrl: 'views/picture.html',
+        templateUrl: 'views/photographs.html',
         controller: 'PhotographsCtrl'
       })
       .when('/activity', {
